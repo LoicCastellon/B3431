@@ -1,0 +1,33 @@
+Mon Feb 12 16:17:52 CET 2018 : Apache Derby Network Server - 10.11.1.2 - (1629631) démarré et prêt à accepter les connexions sur le port 1527
+----------------------------------------------------------------
+Mon Feb 12 16:19:02 CET 2018:
+Amorçage de Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631) : instance a816c00e-0161-8a97-fca8-000054253a7e 
+dans le répertoire de base de données C:\Temp\B3431\DASI avec le chargeur de classe sun.misc.Launcher$AppClassLoader@1d44bcfa
+Chargé de file:/C:/Program%20Files/Java/jdk1.8.0_101/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Program Files\Java\jdk1.8.0_101\db
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=C:\Temp\B3431
+Chargeur de classe de la base de données démarré - derby.database.classpath = ''
+----------------------------------------------------------------
+Mon Feb 12 16:19:06 CET 2018:
+Fermeture de l'instance a816c00e-0161-8a97-fca8-000054253a7e sur le répertoire de base de données C:\Temp\B3431\DASI avec le chargeur de classe sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Mon Feb 12 16:19:06 CET 2018 Thread[DRDAConnThread_2,5,main] (DATABASE = DASI), (DRDAID = {2}), Arrêt de la base de données 'DASI'.
+----------------------------------------------------------------
+Mon Feb 12 16:19:35 CET 2018:
+Amorçage de Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631) : instance a65c80ac-0161-8a97-fca8-000054253a7e 
+dans le répertoire de base de données C:\Temp\B3431\DASI avec le chargeur de classe sun.misc.Launcher$AppClassLoader@1d44bcfa
+Chargé de file:/C:/Program%20Files/Java/jdk1.8.0_101/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Program Files\Java\jdk1.8.0_101\db
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=C:\Temp\B3431
+Chargeur de classe de la base de données démarré - derby.database.classpath = ''
+----------------------------------------------------------------
+Mon Feb 12 18:06:14 CET 2018 : fermeture du moteur Derby
