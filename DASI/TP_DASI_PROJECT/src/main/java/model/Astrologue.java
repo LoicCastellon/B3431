@@ -5,17 +5,13 @@
  */
 package model;
 
-import java.io.Serializable;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
 
 /**
  *
  * @author lcastellon
  */
 
-@Entity
+
 public class Astrologue extends Medium {
 
     public Astrologue(String ecole, String promotion) {

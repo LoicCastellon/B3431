@@ -1,4 +1,4 @@
-package dao;
+package DAO;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -23,7 +23,7 @@ public class JpaUtil {
      * <br><strong>Vérifier le nom de l'unité de persistance
      * (cf.&nbsp;persistence.xml)</strong>
      */
-    public static final String PERSISTENCE_UNIT_NAME = "persistence_tp_dasi";
+    public static final String PERSISTENCE_UNIT_NAME = "fr.insalyon.dasi_TP_DASI_PROJECT_jar_1.0-SNAPSHOTPU2";
     /**
      * Factory de Entity Manager liée à l'unité de persistance.
      * <br/><strong>Vérifier le nom de l'unité de persistance indiquée dans
@@ -170,7 +170,7 @@ public class JpaUtil {
      *
      * @return instance de Entity Manager
      */
-    protected static EntityManager obtenirEntityManager() {
+    public static EntityManager obtenirEntityManager() {
         log("Obtention du contexte de persistance");
         return threadLocalEntityManager.get();
     }

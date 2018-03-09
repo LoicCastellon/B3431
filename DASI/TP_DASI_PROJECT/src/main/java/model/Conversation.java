@@ -5,13 +5,15 @@
  */
 package model;
 
+import javax.persistence.Embeddable;
+
 
 /**
  *
  * @author lcastellon
  */
 
-
+@Embeddable
 public class Conversation {
 
     public int getHeureD() {

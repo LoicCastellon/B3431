@@ -6,7 +6,7 @@
 package service;
 
 import DAO.ClientDao;
-import dao.JpaUtil;
+import DAO.JpaUtil;
 import java.util.Date;
 import model.Client;
 import model.Coordonnées;

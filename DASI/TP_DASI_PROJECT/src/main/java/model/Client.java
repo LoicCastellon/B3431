@@ -7,6 +7,7 @@ package model;
 
 import java.util.List;
 import javax.annotation.Generated;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -18,6 +19,9 @@ import javax.persistence.Id;
 
 @Entity
 public class Client {
+
+    public Client() {
+    }
 
     public Client(Identité identité, Coordonnées coordonnées) {
         this.identité = identité;
@@ -56,20 +60,23 @@ public class Client {
         this.coordonnées = coordonnées;
     }
 
-    public List<Conversation> getListeConversation() {
+   /* public List<Conversation> getListeConversation() {
         return listeConversation;
     }
 
     public void setListeConversation(List<Conversation> listeConversation) {
         this.listeConversation = listeConversation;
     }
-
+*/
    
     @Id @GeneratedValue
     Long IdClient;
-    
+    @Embedded
     Identité identité;
-    ProfilAstro profilAstro;
+    @Embedded
+    ProfilAstro profilAstro=null;
+    @Embedded
     Coordonnées coordonnées;
-    List<Conversation> listeConversation;
+   // @Embedded
+  //  List<Conversation> listeConversation;
 }

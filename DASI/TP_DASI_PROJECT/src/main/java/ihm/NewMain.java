@@ -5,7 +5,7 @@
  */
 package ihm;
 
-import dao.JpaUtil;
+import DAO.JpaUtil;
 import java.util.Date;
 import service.Service;
 

@@ -16,6 +16,9 @@ import javax.persistence.Id;
 @Entity
 public class Employé {
 
+    public Employé() {
+    }
+
     @Id @GeneratedValue
     private Long ID;
 

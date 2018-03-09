@@ -6,15 +6,21 @@
 package model;
 
 import java.util.Date;
+import javax.persistence.Embeddable;
 import javax.persistence.Entity;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 /**
  *
  * @author lcastellon
  */
 
-
+@Embeddable
 public class Identité {
+
+    public Identité() {
+    }
 
     public String getCivilité() {
         return civilité;
@@ -57,6 +63,7 @@ public class Identité {
     String civilité;
     String nom;
     String prenom;
+    @Temporal(TemporalType.DATE)
     Date dateDeNaissance; 
     
 }

@@ -15,8 +15,11 @@ import javax.persistence.Id;
  * @author lcastellon
  */
 
-
+@Entity
 public class Medium {
+
+    public Medium() {
+    }
     @Id @GeneratedValue
     Long IdMedium;
     String nom;

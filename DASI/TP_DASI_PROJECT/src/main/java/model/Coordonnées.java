@@ -5,13 +5,18 @@
  */
 package model;
 
+import javax.persistence.Embeddable;
+
 
 /**
  *
  * @author lcastellon
  */
-
+@Embeddable
 public class Coordonnées {
+
+    public Coordonnées() {
+    }
 
     public String getAdresse() {
         return adresse;
